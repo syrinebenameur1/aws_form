@@ -6,3 +6,14 @@ node_modules/
 *.tfstate
 *.tfvars
 .env
+
+# Terraform generated files
+.terraform/
+terraform.tfstate
+*.tfstate.backup
+tfplan
+
+# Generated graphs and other artifacts
+graph.dot
+graph.png
+infra.svg
