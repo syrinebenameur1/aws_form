@@ -1,0 +1,8 @@
+# Ne pas committer les dépendances
+node_modules/
+
+# Terraform et variables sensibles (si utilisées)
+**/.terraform/
+*.tfstate
+*.tfvars
+.env
